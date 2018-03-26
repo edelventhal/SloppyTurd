@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: 000b68457476248a39c0870b3a90678c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sludgeBits_0
+    21300002: sludgeBits_1
+    21300004: sludgeBits_2
+    21300006: sludgeBits_3
+    21300008: sludgeBits_4
+    21300010: sludgeBits_5
+    21300012: sludgeBits_6
+    21300014: sludgeBits_7
+    21300016: sludgeBits_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sludgeBits_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 763
+        width: 248
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113, y: -38.5}
+        - {x: 113, y: 33.5}
+        - {x: 111, y: 43.5}
+        - {x: 82, y: 85.5}
+        - {x: 56, y: 95.5}
+        - {x: -11, y: 111.5}
+        - {x: -88, y: 124.5}
+        - {x: -124, y: 124.5}
+        - {x: -124, y: 19.5}
+        - {x: -106, y: -40.5}
+        - {x: -85, y: -81.5}
+        - {x: -7, y: -121.5}
+        - {x: 40, y: -121.5}
+        - {x: 70, y: -113.5}
+        - {x: 75, y: -111.5}
+        - {x: 82, y: -106.5}
+      - - {x: 120, y: -45.5}
+        - {x: 120, y: -50.5}
+        - {x: 123, y: -53.5}
+        - {x: 124, y: -53.5}
+        - {x: 124, y: -42.5}
+        - {x: 123, y: -42.5}
+    - name: sludgeBits_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 807
+        width: 245
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119.5, y: 73}
+        - {x: 2.5, y: 106}
+        - {x: -22.5, y: 106}
+        - {x: -38.5, y: 92}
+        - {x: -76.5, y: 58}
+        - {x: -85.5, y: 49}
+        - {x: -122.5, y: -63}
+        - {x: -122.5, y: -80}
+        - {x: -108.5, y: -83}
+        - {x: -82.5, y: -88}
+        - {x: -17.5, y: -103}
+        - {x: 37.5, y: -103}
+        - {x: 44.5, y: -102}
+        - {x: 94.5, y: -83}
+        - {x: 108.5, y: -68}
+        - {x: 119.5, y: -32}
+    - name: sludgeBits_2
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 767
+        width: 243
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 121.5, y: -28.5}
+        - {x: 108.5, y: -20.5}
+        - {x: 92.5, y: 71.5}
+        - {x: 53.5, y: 115.5}
+        - {x: -43.5, y: 115.5}
+        - {x: -57.5, y: 84.5}
+        - {x: -78.5, y: 80.5}
+        - {x: -107.5, y: 45.5}
+        - {x: -116.5, y: 8.5}
+        - {x: -116.5, y: -38.5}
+        - {x: -108.5, y: -70.5}
+        - {x: -82.5, y: -115.5}
+        - {x: -45.5, y: -115.5}
+        - {x: 35.5, y: -104.5}
+        - {x: 95.5, y: -107.5}
+        - {x: 118.5, y: -81.5}
+        - {x: 121.5, y: -63.5}
+    - name: sludgeBits_3
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 515
+        width: 227
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108.5, y: 85.5}
+        - {x: 92.5, y: 96.5}
+        - {x: 48.5, y: 104.5}
+        - {x: 16.5, y: 105.5}
+        - {x: -54.5, y: 105.5}
+        - {x: -68.5, y: 99.5}
+        - {x: -111.5, y: 45.5}
+        - {x: -113.5, y: 31.5}
+        - {x: -113.5, y: -7.5}
+        - {x: -91.5, y: -24.5}
+        - {x: -108.5, y: -66.5}
+        - {x: -69.5, y: -103.5}
+        - {x: 3.5, y: -103.5}
+        - {x: 94.5, y: -91.5}
+        - {x: 110.5, y: -49.5}
+        - {x: 110.5, y: 59.5}
+    - name: sludgeBits_4
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 524
+        width: 253
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125.5, y: -5}
+        - {x: 90.5, y: 29}
+        - {x: 25.5, y: 92}
+        - {x: 7.5, y: 92}
+        - {x: -30.5, y: 118}
+        - {x: -104.5, y: 118}
+        - {x: -115.5, y: 107}
+        - {x: -123.5, y: 56}
+        - {x: -123.5, y: 28}
+        - {x: -83.5, y: -47}
+        - {x: -33.5, y: -112}
+        - {x: -25.5, y: -117}
+        - {x: -3.5, y: -121}
+        - {x: 22.5, y: -121}
+        - {x: 74.5, y: -109}
+        - {x: 121.5, y: -78}
+        - {x: 125.5, y: -58}
+    - name: sludgeBits_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 515
+        width: 237
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.5, y: 37}
+        - {x: -10.5, y: 112}
+        - {x: -95.5, y: 112}
+        - {x: -115.5, y: 73}
+        - {x: -115.5, y: 45}
+        - {x: -57.5, y: -55}
+        - {x: 48.5, y: -109}
+        - {x: 108.5, y: -109}
+        - {x: 115.5, y: -103}
+        - {x: 116.5, y: -92}
+        - {x: 116.5, y: -48}
+        - {x: 73.5, y: 31}
+    - name: sludgeBits_6
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 255
+        width: 247
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.5, y: -45.5}
+        - {x: 29.5, y: -15.5}
+        - {x: 122.5, y: -22.5}
+        - {x: 122.5, y: 14.5}
+        - {x: 112.5, y: 105.5}
+        - {x: 81.5, y: 123.5}
+        - {x: 20.5, y: 127.5}
+        - {x: -43.5, y: 127.5}
+        - {x: -48.5, y: 123.5}
+        - {x: -120.5, y: 59.5}
+        - {x: -120.5, y: -15.5}
+        - {x: -110.5, y: -65.5}
+        - {x: -98.5, y: -83.5}
+        - {x: -41.5, y: -118.5}
+        - {x: -18.5, y: -124.5}
+        - {x: 12.5, y: -124.5}
+        - {x: 25.5, y: -121.5}
+        - {x: 44.5, y: -113.5}
+        - {x: 57.5, y: -63.5}
+    - name: sludgeBits_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 255
+        width: 235
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 37.5}
+        - {x: -80.5, y: 122.5}
+        - {x: -91.5, y: 125.5}
+        - {x: -115.5, y: 125.5}
+        - {x: -115.5, y: 92.5}
+        - {x: -64.5, y: -20.5}
+        - {x: -71.5, y: -34.5}
+        - {x: -42.5, y: -125.5}
+        - {x: 68.5, y: -125.5}
+        - {x: 104.5, y: -109.5}
+        - {x: 115.5, y: -93.5}
+        - {x: 115.5, y: -31.5}
+    - name: sludgeBits_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 14
+        width: 243
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 116.5, y: -1}
+        - {x: 39.5, y: 83}
+        - {x: -35.5, y: 99}
+        - {x: -91.5, y: 116}
+        - {x: -121.5, y: 116}
+        - {x: -121.5, y: 91}
+        - {x: -105.5, y: 51}
+        - {x: -54.5, y: -45}
+        - {x: -38.5, y: -96}
+        - {x: 4.5, y: -121}
+        - {x: 48.5, y: -121}
+        - {x: 93.5, y: -95}
+        - {x: 113.5, y: -72}
+        - {x: 116.5, y: -37}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

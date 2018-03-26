@@ -1,0 +1,353 @@
+fileFormatVersion: 2
+guid: fc2820b18187641c08f32095bdfaf7db
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pooBitsCorn
+    21300002: pooBitsCheese
+    21300004: pooBitsParsley
+    21300006: pooBitsPoo1
+    21300008: pooBitsCrumbs
+    21300010: pooBitsSteak
+    21300012: pooBitsPurple
+    21300014: pooBitsPoo2
+    21300016: pooBitsCarrot
+    21300018: pooBitsLime
+    21300020: pooBitsPoo3
+    21300022: pooBitsPoo4
+    21300024: pooBitsSeed
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pooBitsCorn
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 768
+        width: 245
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109.5, y: 38.5}
+        - {x: 107.5, y: 48.5}
+        - {x: 78.5, y: 90.5}
+        - {x: 52.5, y: 100.5}
+        - {x: -9.5, y: 115.5}
+        - {x: -121.5, y: 115.5}
+        - {x: -122.5, y: 83.5}
+        - {x: -122.5, y: 15.5}
+        - {x: -120.5, y: 2.5}
+        - {x: -108.5, y: -34.5}
+        - {x: -75.5, y: -84.5}
+        - {x: -12.5, y: -115.5}
+        - {x: 38.5, y: -115.5}
+        - {x: 73.5, y: -108.5}
+        - {x: 78.5, y: -101.5}
+        - {x: 109.5, y: -33.5}
+      - - {x: 116.5, y: -40.5}
+        - {x: 116.5, y: -45.5}
+        - {x: 121.5, y: -49.5}
+        - {x: 122.5, y: -49.5}
+        - {x: 122.5, y: -35.5}
+        - {x: 121.5, y: -35.5}
+    - name: pooBitsCheese
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 814
+        width: 240
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120, y: 69}
+        - {x: 2, y: 103}
+        - {x: -13, y: 103}
+        - {x: -15, y: 102}
+        - {x: -32, y: 91}
+        - {x: -53, y: 74}
+        - {x: -84, y: 46}
+        - {x: -114, y: -57}
+        - {x: -120, y: -70}
+        - {x: -120, y: -84}
+        - {x: -32, y: -103}
+        - {x: 45, y: -103}
+        - {x: 97, y: -87}
+        - {x: 111, y: -72}
+        - {x: 120, y: -44}
+    - name: pooBitsParsley
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 769
+        width: 234
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: -115.5}
+        - {x: 117, y: -105.5}
+        - {x: 117, y: -19.5}
+        - {x: 97, y: -7.5}
+        - {x: 89, y: 70.5}
+        - {x: 46, y: 115.5}
+        - {x: -47, y: 115.5}
+        - {x: -89, y: 68.5}
+        - {x: -117, y: 16.5}
+        - {x: -117, y: -33.5}
+        - {x: -113, y: -72.5}
+        - {x: -85, y: -115.5}
+        - {x: -66, y: -115.5}
+        - {x: -56, y: -111.5}
+        - {x: -43, y: -115.5}
+    - name: pooBitsPoo1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 792
+        width: 196
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: pooBitsCrumbs
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 520
+        width: 229
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 30}
+        - {x: -14.5, y: 110}
+        - {x: -96.5, y: 110}
+        - {x: -114.5, y: 90}
+        - {x: -114.5, y: 29}
+        - {x: -63.5, y: -64}
+        - {x: 24.5, y: -105}
+        - {x: 57.5, y: -110}
+        - {x: 107.5, y: -110}
+        - {x: 114.5, y: -89}
+        - {x: 114.5, y: -52}
+        - {x: 80.5, y: 37}
+    - name: pooBitsSteak
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 524
+        width: 247
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.5, y: 34.5}
+        - {x: 25.5, y: 94.5}
+        - {x: -26.5, y: 118.5}
+        - {x: -101.5, y: 118.5}
+        - {x: -114.5, y: 109.5}
+        - {x: -123.5, y: 72.5}
+        - {x: -123.5, y: 38.5}
+        - {x: -104.5, y: -9.5}
+        - {x: -71.5, y: -53.5}
+        - {x: -34.5, y: -110.5}
+        - {x: -31.5, y: -118.5}
+        - {x: 46.5, y: -118.5}
+        - {x: 77.5, y: -115.5}
+        - {x: 94.5, y: -98.5}
+        - {x: 123.5, y: -65.5}
+        - {x: 123.5, y: 2.5}
+    - name: pooBitsPurple
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 520
+        width: 223
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111.5, y: 34}
+        - {x: 110.5, y: 84}
+        - {x: 96.5, y: 100}
+        - {x: 41.5, y: 104}
+        - {x: -58.5, y: 104}
+        - {x: -66.5, y: 98}
+        - {x: -109.5, y: 44}
+        - {x: -111.5, y: 30}
+        - {x: -111.5, y: -9}
+        - {x: -89.5, y: -26}
+        - {x: -106.5, y: -68}
+        - {x: -68.5, y: -104}
+        - {x: 3.5, y: -104}
+        - {x: 51.5, y: -93}
+        - {x: 105.5, y: -84}
+        - {x: 111.5, y: -52}
+    - name: pooBitsPoo2
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 576
+        width: 125
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: pooBitsCarrot
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 259
+        width: 228
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 37.5}
+        - {x: -81, y: 123.5}
+        - {x: -114, y: 123.5}
+        - {x: -114, y: 104.5}
+        - {x: -110, y: 88.5}
+        - {x: -97, y: 50.5}
+        - {x: -54, y: -109.5}
+        - {x: -44, y: -123.5}
+        - {x: 82, y: -123.5}
+        - {x: 95, y: -114.5}
+        - {x: 114, y: -95.5}
+        - {x: 114, y: -30.5}
+    - name: pooBitsLime
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 260
+        width: 240
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120, y: -24.5}
+        - {x: 120, y: 20.5}
+        - {x: 111, y: 103.5}
+        - {x: 79, y: 120.5}
+        - {x: 40, y: 124.5}
+        - {x: -51, y: 124.5}
+        - {x: -120, y: 60.5}
+        - {x: -120, y: -16.5}
+        - {x: -109, y: -72.5}
+        - {x: -97, y: -86.5}
+        - {x: -41, y: -117.5}
+        - {x: -30, y: -122.5}
+        - {x: -29, y: -124.5}
+        - {x: 27, y: -124.5}
+        - {x: 50, y: -120.5}
+        - {x: 56, y: -65.5}
+        - {x: 51, y: -47.5}
+        - {x: 28, y: -17.5}
+    - name: pooBitsPoo3
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 286
+        width: 225
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: pooBitsPoo4
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 10
+        width: 230
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: pooBitsSeed
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7
+        width: 235
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 77}
+        - {x: 20.5, y: 102}
+        - {x: -1.5, y: 84}
+        - {x: -70.5, y: 119}
+        - {x: -80.5, y: 121}
+        - {x: -117.5, y: 121}
+        - {x: -117.5, y: 94}
+        - {x: -111.5, y: 63}
+        - {x: -43.5, y: -56}
+        - {x: -37.5, y: -90}
+        - {x: 3.5, y: -121}
+        - {x: 35.5, y: -121}
+        - {x: 73.5, y: -109}
+        - {x: 112.5, y: -75}
+        - {x: 117.5, y: -45}
+        - {x: 117.5, y: 13}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

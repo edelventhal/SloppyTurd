@@ -1,0 +1,131 @@
+fileFormatVersion: 2
+guid: ca6d56bd682cb4b87b5a18a29bf7ed47
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: turd-eye_0
+    21300002: turd-eye_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: turd-eye_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 354
+        width: 293
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113.5, y: -98.5}
+        - {x: 129.5, y: -76.5}
+        - {x: 142.5, y: -47.5}
+        - {x: 146.5, y: -27.5}
+        - {x: 146.5, y: 32.5}
+        - {x: 142.5, y: 54.5}
+        - {x: 114.5, y: 99.5}
+        - {x: 94.5, y: 117.5}
+        - {x: 61.5, y: 139.5}
+        - {x: 31.5, y: 146.5}
+        - {x: -29.5, y: 146.5}
+        - {x: -55.5, y: 140.5}
+        - {x: -73.5, y: 132.5}
+        - {x: -108.5, y: 104.5}
+        - {x: -130.5, y: 78.5}
+        - {x: -146.5, y: 36.5}
+        - {x: -146.5, y: -28.5}
+        - {x: -145.5, y: -40.5}
+        - {x: -133.5, y: -73.5}
+        - {x: -103.5, y: -114.5}
+        - {x: -50.5, y: -142.5}
+        - {x: -33.5, y: -146.5}
+        - {x: 32.5, y: -146.5}
+        - {x: 53.5, y: -140.5}
+        - {x: 67.5, y: -134.5}
+        - {x: 92.5, y: -118.5}
+    - name: turd-eye_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 354
+        width: 293
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113.5, y: -98.5}
+        - {x: 129.5, y: -76.5}
+        - {x: 142.5, y: -47.5}
+        - {x: 146.5, y: -27.5}
+        - {x: 146.5, y: 32.5}
+        - {x: 142.5, y: 54.5}
+        - {x: 114.5, y: 99.5}
+        - {x: 94.5, y: 117.5}
+        - {x: 61.5, y: 139.5}
+        - {x: 31.5, y: 146.5}
+        - {x: -29.5, y: 146.5}
+        - {x: -55.5, y: 140.5}
+        - {x: -73.5, y: 132.5}
+        - {x: -108.5, y: 104.5}
+        - {x: -130.5, y: 78.5}
+        - {x: -146.5, y: 36.5}
+        - {x: -146.5, y: -28.5}
+        - {x: -145.5, y: -40.5}
+        - {x: -133.5, y: -73.5}
+        - {x: -103.5, y: -114.5}
+        - {x: -50.5, y: -142.5}
+        - {x: -33.5, y: -146.5}
+        - {x: 32.5, y: -146.5}
+        - {x: 53.5, y: -140.5}
+        - {x: 67.5, y: -134.5}
+        - {x: 92.5, y: -118.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
