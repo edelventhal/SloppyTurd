@@ -83,7 +83,7 @@ public class PooBall : MonoBehaviour
 		if ( ( transform.position - Game.GetInstance().poo.pooBallCenter.transform.position ).sqrMagnitude > destroyDistance * destroyDistance )
 		{
 			Game.GetInstance().poo.PooBallWasDestroyed( gameObject );
-			
+
 			Object.Destroy( gameObject );
 		}
 	}
@@ -135,7 +135,10 @@ public class PooBall : MonoBehaviour
 		transform.parent = null;//newParent;
 		if ( newParent != null )
 		{
-			GetComponent<Rigidbody2D>().isKinematic = true;
+			// GetComponent<Rigidbody2D>().isKinematic = true;
+			// GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+			// GetComponent<Rigidbody2D>().angularVelocity = 0.0f;
+			GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
 			stuck = true;
 		}
 
