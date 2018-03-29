@@ -172,6 +172,11 @@ public class Game : MonoBehaviour
 		return points;
 	}
 
+	public void SetPoints( int setPoints )
+	{
+		points = setPoints;
+	}
+
 	public int GetMaxPoints()
 	{
 		return maxPoints;

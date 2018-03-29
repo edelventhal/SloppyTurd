@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Advertisements;
 
 public class GameGUI : MonoBehaviour, InputListener
 {
@@ -63,27 +64,27 @@ public class GameGUI : MonoBehaviour, InputListener
 		scoreYSlideDistance = 0.0f;
 		showingBanner = false;
 
-#if UNITY_IPHONE
-		AdMobBinding.setTestDevices( new string[] { "e7f7998e84377d0d14027ff188ec1ccecd37ad2c", "a41d4f7d0941067ac75261fe2aca24cb9d459773" } );
-		AdMobBinding.init( "pub-4271033034731792", true );
+// #if UNITY_IPHONE
+// 		AdMobBinding.setTestDevices( new string[] { "e7f7998e84377d0d14027ff188ec1ccecd37ad2c", "a41d4f7d0941067ac75261fe2aca24cb9d459773" } );
+// 		AdMobBinding.init( "pub-4271033034731792", true );
 
-		isTablet = UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPad1Gen || UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPad2Gen
-				|| UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPad3Gen || UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPad4Gen
-				|| UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPadMini1Gen;
+// 		isTablet = UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPad1Gen || UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPad2Gen
+// 				|| UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPad3Gen || UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPad4Gen
+// 				|| UnityEngine.iOS.Device.generation == UnityEngine.iOS.DeviceGeneration.iPadMini1Gen;
 
-		scoreYSlideDistance = isTablet ? 90 : 50;
+// 		scoreYSlideDistance = isTablet ? 90 : 50;
 
-		//if we're retina, we need to x2 that value
-		isRetina = Screen.dpi > 200;
+// 		//if we're retina, we need to x2 that value
+// 		isRetina = Screen.dpi > 200;
 
-		if ( isRetina )
-		{
-			scoreYSlideDistance *= 2.0f;
-		}
-#elif UNITY_ANDROID
-        AdMobAndroid.init( "pub-4271033034731792" );
-        scoreYSlideDistance = 150; //no idea why I need this...
-#endif
+// 		if ( isRetina )
+// 		{
+// 			scoreYSlideDistance *= 2.0f;
+// 		}
+// #elif UNITY_ANDROID
+//         AdMobAndroid.init( "pub-4271033034731792" );
+//         scoreYSlideDistance = 150; //no idea why I need this...
+// #endif
 	}
 
 	public void OnGUI()
@@ -168,78 +169,78 @@ public class GameGUI : MonoBehaviour, InputListener
             GUI.DrawTexture( new Rect( ( Screen.width - creditsWid ) / 2.0f, Screen.height - grandHi * 1.0f - creditsHi * 1.0f, creditsWid, creditsHi ), creditsTexture );
 		}
 
-#if UNITY_IPHONE
-		//when waiting or dead, we can show ads
-		if ( Game.GetInstance().GetState() == Game.GameState.Waiting || Game.GetInstance().GetState() == Game.GameState.Dead )
-		{
-			if ( !showingBanner )
-			{
-				if( UnityEngine.iOS.Device.generation != UnityEngine.iOS.DeviceGeneration.iPad1Gen && UnityEngine.iOS.Device.generation != UnityEngine.iOS.DeviceGeneration.iPad2Gen
-				   && UnityEngine.iOS.Device.generation != UnityEngine.iOS.DeviceGeneration.iPad3Gen && UnityEngine.iOS.Device.generation != UnityEngine.iOS.DeviceGeneration.iPad4Gen && UnityEngine.iOS.Device.generation != UnityEngine.iOS.DeviceGeneration.iPadMini1Gen )
-				{
-					AdMobBinding.createBanner( "ca-app-pub-4271033034731792/9729598146", AdMobBannerType.iPhone_320x50, AdMobAdPosition.TopCenter );
-				}
-				else
-				{
-					AdMobBinding.createBanner( "ca-app-pub-4271033034731792/7834062541", AdMobBannerType.iPad_728x90, AdMobAdPosition.TopCenter );
-				}
+// #if UNITY_IPHONE
+// 		//when waiting or dead, we can show ads
+// 		if ( Game.GetInstance().GetState() == Game.GameState.Waiting || Game.GetInstance().GetState() == Game.GameState.Dead )
+// 		{
+// 			if ( !showingBanner )
+// 			{
+// 				if( UnityEngine.iOS.Device.generation != UnityEngine.iOS.DeviceGeneration.iPad1Gen && UnityEngine.iOS.Device.generation != UnityEngine.iOS.DeviceGeneration.iPad2Gen
+// 				   && UnityEngine.iOS.Device.generation != UnityEngine.iOS.DeviceGeneration.iPad3Gen && UnityEngine.iOS.Device.generation != UnityEngine.iOS.DeviceGeneration.iPad4Gen && UnityEngine.iOS.Device.generation != UnityEngine.iOS.DeviceGeneration.iPadMini1Gen )
+// 				{
+// 					AdMobBinding.createBanner( "ca-app-pub-4271033034731792/9729598146", AdMobBannerType.iPhone_320x50, AdMobAdPosition.TopCenter );
+// 				}
+// 				else
+// 				{
+// 					AdMobBinding.createBanner( "ca-app-pub-4271033034731792/7834062541", AdMobBannerType.iPad_728x90, AdMobAdPosition.TopCenter );
+// 				}
 
-				showingBanner = true;
-				scoreYOffsetTimeSlid = 0.0f;
-			}
+// 				showingBanner = true;
+// 				scoreYOffsetTimeSlid = 0.0f;
+// 			}
 
-			scoreYOffset = GetEaseInOutValue( scoreYOffsetTimeSlid, scoreYOffsetSlideTime, 0.0f, scoreYSlideDistance );
-			scoreYOffsetTimeSlid += Time.deltaTime;
-		}
-		//otherwise, remove them
-		else
-		{
-			if ( showingBanner )
-			{
-				AdMobBinding.destroyBanner();
-				showingBanner = false;
-				scoreYOffsetTimeSlid = 0.0f;
-			}
+// 			scoreYOffset = GetEaseInOutValue( scoreYOffsetTimeSlid, scoreYOffsetSlideTime, 0.0f, scoreYSlideDistance );
+// 			scoreYOffsetTimeSlid += Time.deltaTime;
+// 		}
+// 		//otherwise, remove them
+// 		else
+// 		{
+// 			if ( showingBanner )
+// 			{
+// 				AdMobBinding.destroyBanner();
+// 				showingBanner = false;
+// 				scoreYOffsetTimeSlid = 0.0f;
+// 			}
 
-			scoreYOffset = GetEaseInOutValue( scoreYOffsetTimeSlid, scoreYOffsetSlideTime, scoreYSlideDistance, 0.0f );
-			scoreYOffsetTimeSlid += Time.deltaTime;
-		}
-#elif UNITY_ANDROID
-		//when waiting or dead, we can show ads
-		if ( Game.GetInstance().GetState() == Game.GameState.Waiting || Game.GetInstance().GetState() == Game.GameState.Dead )
-		{
-			if ( !showingBanner )
-			{
-				//if( Screen.width < 728 )
-				//{
-					AdMobAndroid.createBanner( "ca-app-pub-4271033034731792/9729598146", AdMobAndroidAd.phone320x50, AdMobAdPlacement.TopCenter );
-                    //}
-				//else
-				//{
-				//	AdMobAndroid.createBanner( "ca-app-pub-4271033034731792/7834062541", AdMobAndroidAd.tablet728x90, AdMobAdPlacement.TopCenter );
-                    //}
+// 			scoreYOffset = GetEaseInOutValue( scoreYOffsetTimeSlid, scoreYOffsetSlideTime, scoreYSlideDistance, 0.0f );
+// 			scoreYOffsetTimeSlid += Time.deltaTime;
+// 		}
+// #elif UNITY_ANDROID
+// 		//when waiting or dead, we can show ads
+// 		if ( Game.GetInstance().GetState() == Game.GameState.Waiting || Game.GetInstance().GetState() == Game.GameState.Dead )
+// 		{
+// 			if ( !showingBanner )
+// 			{
+// 				//if( Screen.width < 728 )
+// 				//{
+// 					AdMobAndroid.createBanner( "ca-app-pub-4271033034731792/9729598146", AdMobAndroidAd.phone320x50, AdMobAdPlacement.TopCenter );
+//                     //}
+// 				//else
+// 				//{
+// 				//	AdMobAndroid.createBanner( "ca-app-pub-4271033034731792/7834062541", AdMobAndroidAd.tablet728x90, AdMobAdPlacement.TopCenter );
+//                     //}
 
-				showingBanner = true;
-				scoreYOffsetTimeSlid = 0.0f;
-			}
+// 				showingBanner = true;
+// 				scoreYOffsetTimeSlid = 0.0f;
+// 			}
 
-			scoreYOffset = GetEaseInOutValue( scoreYOffsetTimeSlid, scoreYOffsetSlideTime, 0.0f, scoreYSlideDistance );
-			scoreYOffsetTimeSlid += Time.deltaTime;
-		}
-		//otherwise, remove them
-		else
-		{
-			if ( showingBanner )
-			{
-				AdMobAndroid.destroyBanner();
-				showingBanner = false;
-				scoreYOffsetTimeSlid = 0.0f;
-			}
+// 			scoreYOffset = GetEaseInOutValue( scoreYOffsetTimeSlid, scoreYOffsetSlideTime, 0.0f, scoreYSlideDistance );
+// 			scoreYOffsetTimeSlid += Time.deltaTime;
+// 		}
+// 		//otherwise, remove them
+// 		else
+// 		{
+// 			if ( showingBanner )
+// 			{
+// 				AdMobAndroid.destroyBanner();
+// 				showingBanner = false;
+// 				scoreYOffsetTimeSlid = 0.0f;
+// 			}
 
-			scoreYOffset = GetEaseInOutValue( scoreYOffsetTimeSlid, scoreYOffsetSlideTime, scoreYSlideDistance, 0.0f );
-			scoreYOffsetTimeSlid += Time.deltaTime;
-		}
-#endif
+// 			scoreYOffset = GetEaseInOutValue( scoreYOffsetTimeSlid, scoreYOffsetSlideTime, scoreYSlideDistance, 0.0f );
+// 			scoreYOffsetTimeSlid += Time.deltaTime;
+// 		}
+// #endif
 	}
 
 	public bool Tapped()

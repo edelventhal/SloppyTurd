@@ -129,23 +129,28 @@ public class Poo : MonoBehaviour, InputListener
 		}
 	}
 
+	public bool HasBeenDeadLongEnoughForReset()
+	{
+		return ( timeDead >= minimumDeadTime );
+	}
+
 	public bool Tapped()
 	{
 		Game.GameState state = Game.GetInstance().GetState();
 		if ( state == Game.GameState.Dead )
 		{
-			if ( timeDead >= minimumDeadTime )
-			{
-				Game.GetInstance().Reset();
-			}
+			// if ( HasBeenDeadLongEnoughForReset() )
+			// {
+			// 	Game.GetInstance().Reset();
+			// }
 		}
 		else if ( state == Game.GameState.Menu )
 		{
-			Game.GetInstance().SetState( Game.GameState.Waiting );
+			//Game.GetInstance().SetState( Game.GameState.Waiting );
 		}
-		else if ( state == Game.GameState.Waiting || state == Game.GameState.Playing )
+		else if ( /*state == Game.GameState.Waiting ||*/ state == Game.GameState.Playing )
 		{
-			Game.GetInstance().SetState( Game.GameState.Playing );
+			//Game.GetInstance().SetState( Game.GameState.Playing );
 
 			Vector2 vel = new Vector2( xSpeed, pulseAmount );
 			if ( pulseAmount > 0 )
