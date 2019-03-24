@@ -184,7 +184,7 @@ public class Game : MonoBehaviour
 
     public bool ShouldAdvance()
     {
-        return maxPoints >= advancePointsRequired || unlockStep >= unlockOrder.Length;
+        return false;//maxPoints >= advancePointsRequired || unlockStep >= unlockOrder.Length;
     }
     
     public void ProcessUnlock( int quadrant )
